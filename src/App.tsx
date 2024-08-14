@@ -4,6 +4,7 @@ import Task from "./components/Task.tsx";
 type Task = {
     id: number;
     name: string;
+    status: number;
 }
 
 function App() {
